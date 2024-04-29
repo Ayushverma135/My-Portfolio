@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortforlio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200&family=Protest+Strike&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="left">Ayush's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home" style="--i:1"class="active">Home</a></li>
+                    <li><a href="#about" style="--i:2">About</a></li>
+                    <li><a href="#services" style="--i:3">Services</a></li>
+                    <li><a href="#project" style="--i:4">Projects</a></li>
+                    <li><a href="#contact" style="--i:5">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="firstsection">
+        <div class="leftsection">
+            <div class="intro">Hi, My name is</div>
+            <div class="name3"><span class="name">Ayush Verma</span></div>
+            <div class="name2">and i am a Dedicated</div>
+            <span id="element"></span>
+            <div class="icon">
+                <a href="https://github.com/Ayushverma135" style="--i:6"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/ayush-verma-15912a229/" style="--i:7"><i class='bx bxl-linkedin'></i></a>
+                <a href=mailto:"ayushuv135@gmail.com" style="--i:8"><i class='bx bxl-gmail'></i></a>
+                <a href="https://api.whatsapp.com/send?phone=916393868175" style="--i:9"><i class='bx bx-phone'></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1re5nMEnwIvYi_2SKZC7Kh4p5M58Wz5D4/view?usp=sharing" class="resume">Download Resume</a>
+        </div>
+        <div class="rightsection">
+            <img src="images/character-man.webp" alt="">
+        </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Web</i> Developer.','<i>Android</i> Developer.','<i>AI</i> Enthusiast','<i>Programmer</i>'],
+          typeSpeed: 40,
+        });
+    </script>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/programmer.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <p>Passionate about Artificial Intelligence and Machine Learning. Skilled in web and
+                Android development as well. Dedicated problem solver with a 5-star coder
+                rating in Python, C, and general problem solving, recognized for solving over 250
+                LeetCode questions. Proficient in algorithm design, data structures, and coding
+                challenges. Committed to continuous learning and innovation for effective
+                problem solving. I'm committed to pushing boundaries, embracing new
+                opportunities, and delivering impactful solutions that merge technology with
+                creativity. I stay at the forefront of the field, while my holistic skill set ensures the
+                success of every project.</p>
+            <a href="https://www.linkedin.com/in/ayush-verma-15912a229/"class="resume">More about me</a>
+        </div>
+    </section>
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code" style="color: rgb(144, 144, 252);"></i>
+                        <h2>Android Developement</h2>
+                        <p>Specializing in custom Android app development, we offer UI/UX design, native and cross-platform development, API integration, backend support, testing, maintenance, and strategic consultation. Elevate your digital presence with our tailored solutions and expert guidance.</p>
+                            <a href="https://github.com/Ayushverma135/NewsAPI" class="read-more" style="color: rgb(144, 144, 252);">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code" style="color: rgb(144, 144, 252);"></i>
+                        <h2>Data Analyst</h2>
+                        <p>As a seasoned data analyst, I specialize in extracting valuable insights from complex datasets. With expertise in data gathering, cleaning, analysis, and visualization, I offer actionable insights to drive informed decision-making. Whether it's uncovering trends, identifying opportunities, or solving business challenges, I leverage data to empower organizations to succeed. Let me transform your data into actionable intelligence and guide you towards your goals.</p>
+                            <a href="https://github.com/Ayushverma135/Data-Extraction-and-Text-Analysis-using-NLP" class="read-more">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code" style="color: rgb(144, 144, 252);"></i>
+                        <h2>Front End Development</h2>
+                        <p>As a front-end developer, I specialize in creating engaging and user-friendly web experiences. With expertise in HTML, CSS, and JavaScript, I craft responsive and visually appealing interfaces that delight users across devices. From website design to interactive web applications, I bring creativity and technical proficiency to every project. Let me help you elevate your online presence and deliver memorable digital experiences to your audience.</p>
+                            <a href="https://github.com/Ayushverma135/AMAZON-CLONE" class="read-more">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code" style="color: rgb(144, 144, 252);"></i>
+                        <h2 style="color: rgb(80, 88, 152);">Amazon Web Services</h2>
+                        <p style="color: rgb(80, 88, 152);">As an AWS specialist, I offer comprehensive cloud solutions to optimize your business operations. From scalable infrastructure to robust data storage and security, I provide end-to-end AWS services tailored to your needs. Whether it's deploying applications, managing databases, or implementing AI and machine learning solutions, I leverage the full power of AWS to drive innovation and efficiency. Let me help you harness the capabilities of the cloud and propel your business forward with AWS.</p>
+                            <a href="https://github.com/Ayushverma135/DataFlowX" class="read-more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    <section>
+        <div class="container1" id="Skills">
+            <h1 style="color: rgb(80, 88, 152);"class="heading1">Technical Skills</h1>
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill-name"><i style="color: #F29D4E" class="fa-brands fa-html5"></i>
+                        <span style="color: rgb(80, 88, 152);">HTML</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="90%" style="max-width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name"><i style="color: #4499EF;"class="fa-brands fa-css3-alt"></i>
+                        <span style="color: rgb(80, 88, 152);">CSS</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="70%" style="max-width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name"><i  style="color: #f9cd07" class="fa-brands fa-js"></i>
+                        <span style="color: rgb(80, 88, 152);">JavaScript</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="60%" style="max-width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name"><i  style="color: #473d97" class="fa-brands fa-js"></i>
+                        <span style="color: rgb(80, 88, 152);">React</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="70%" style="max-width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container1">
+            <h1 style="color: rgb(80, 88, 152);"class="heading1">Proffesional skills</h1>
+            <div class="radial-bars">
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div style="color: rgb(80, 88, 152);"class="percentage">90%</div>
+                    <div style="color: rgb(80, 88, 152);"class="text">creativity</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div style="color: rgb(80, 88, 152);"class="percentage">70%</div>
+                    <div style="color: rgb(80, 88, 152);"class="text">Problem Solving</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div style="color: rgb(80, 88, 152);"class="percentage">80%</div>
+                    <div style="color: rgb(80, 88, 152);"class="text">Communication</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div style="color: rgb(80, 88, 152);"class="percentage">80%</div>
+                    <div style="color: rgb(19, 27, 94);"class="text">Teamwork</div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section>
+    <div id="portfolio" id="project">
+        <div class="main-text" id="project">
+            <h2>Latest <span>Projects</span></h2>
+            <br>
+            <br>
+            <div class="portfolio-content">
+                <div class="row">
+                    <img src="images/objectdetectionnew.jpg">
+                    <div class="layer">
+                        <h5>ObjectSpotter</h5>
+                        <p>A Web App using Flask Framework of Python which will Detect Objects and finding out their names from images by using Python's OpenCV library using Pre-Trained Coco Dataset.</p>
+                        <a href="https://github.com/Ayushverma135/ObjectSpotter"><i class='bx bx-link-external' style="color: white;"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="images/text.jpg">
+                    <div class="layer">
+                        <h5>SentixAnalyzer</h5>
+                        <p>an NLP-powered sentiment analysis project to analyze text data and produces number of tokens in the language, keywords, polarity and subjectivity of the context. By classifying text as positive, negative, or neutral.</p>
+                        <a href="https://github.com/Ayushverma135/SentixAnalyzer"><i class='bx bx-link-external' style="color: white;"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="images/mobile.jpg">
+                    <div class="layer">
+                        <h5>NewsAPI</h5>
+                        <p>Stay informed with our NewsAPI Android app built with Flutter and Dart. Access the latest news from around the world at your fingertips, with a sleek and intuitive interface designed for effortless browsing. Powered by the NewsAPI service, our app delivers real-time updates on a variety of topics.</p>
+                        <a href="https://github.com/Ayushverma135/NewsAPI"><i class='bx bx-link-external' style="color: white;"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="images/NLP.jpg">
+                    <div class="layer">
+                        <h5>Data-Extraction-and-Text-Analysis-using-NLP</h5>
+                        <p>The objective of this project is to extract textual data articles from the URL and perform text analysis to compute variables.</p>
+                        <a href="https://github.com/Ayushverma135/Data-Extraction-and-Text-Analysis-using-NLP"><i class='bx bx-link-external' style="color: white;"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="images/The-Amazon-Logo.jpg">
+                    <div class="layer">
+                        <h5>AMAZON-CLONE</h5>
+                        <p >About
+                            Experience the familiar layout and functionality of Amazon's homepage with our meticulously crafted clone using HTML, CSS, and JavaScript. our clone faithfully replicates the design elements and features of the original Amazon homepage.</p>
+                        <a href="https://github.com/Ayushverma135/AMAZON-CLONE"><i class='bx bx-link-external' style="color: white;"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="images/download.jpg">
+                    <div class="layer">
+                        <h5>DataFlowX</h5>
+                        <p>Implementation of data analytics pipeline for a application or platform using Cloud Data Migration Services.</p>
+                        <a href="https://github.com/Ayushverma135/DataFlowX"><i class='bx bx-link-external' style="color: white;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <p style="color: rgb(80, 88, 152);">I'm dedicated to delivering top-notch solutions tailored to your needs. Let's collaborate and bring your ideas to life! Feel free to reach out to me here, and let's discuss how we can work together to achieve your goals. Looking forward to connecting!</p>
+        <div class="contact-list">
+            <li style="color: rgb(80, 88, 152);"><i style="color: rgb(80, 88, 152);"class="bx bxs-send"></i> ayushuv135@gmail.com</li>
+            <li style="color: rgb(80, 88, 152);"><i style="color: rgb(80, 88, 152);"class="bx bxs-phone"></i> 1234567890</li>
+        </div>
+        <div class="icon">
+            <a href="https://github.com/Ayushverma135" style="--i:6"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/ayush-verma-15912a229/" style="--i:7"><i class='bx bxl-linkedin'></i></a>
+            <a href=mailto:"ayushuv135@gmail.com" style="--i:8"><i class='bx bxl-gmail'></i></a>
+            <a href="https://api.whatsapp.com/send?phone=916393868175" style="--i:9"><i class='bx bx-phone'></i></a>
+        </div>
+    </div>
+    <div class="contact-form">
+        <!-- <form action="" onsubmit="emailSend(); reset(); return false;"> -->
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="1481a29f-25d2-4e04-be5f-30a9174c48ce">
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+            <input type="text" id="subject" name="subject" placeholder="Enter Your Subject" required>
+            <textarea name="message" id="msg" cols="40" rows="30" placeholder="Enter Your Message" required></textarea>
+            <input type="Submit" value="Submit" class="send">
+        </form>
+    </div>
+
+</section>
+<div class="last-text">
+    <p>Developed with love and passion by Ayush Verma @ 2024</p>
+</div>
+<a href="/" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+</body>
+</html>
