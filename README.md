@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio repository! This README provides an overview of the content, structure, and usage of my portfolio.
+Welcome to my portfolio! This website, built using HTML, CSS, and JavaScript, serves as a showcase of my projects, experience, skills, and contact information. Explore the different sections to learn more about my work and how we can collaborate. Feel free to reach out to me for any inquiries or feedback.
 
 ## About Me
 
